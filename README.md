@@ -4,7 +4,7 @@
 
 **Alpha Group (JCDS 0512 (SBY))**  
 
-Dibimbing Oleh:  
+Mentor :  
 [Bayu Prasetya](https://www.linkedin.com/in/bayu-dwi-prasetya/)  
 
 Disusun Oleh:  
