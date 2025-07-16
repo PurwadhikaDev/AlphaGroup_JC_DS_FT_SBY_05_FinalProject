@@ -6,15 +6,18 @@
 
 Dibimbing Oleh:  
 [Bayu Prasetya](https://www.linkedin.com/in/bayu-dwi-prasetya/)  
+
 Disusun Oleh:  
 <a href="https://www.linkedin.com/in/muhammad-khisanul-fakhrudin-akbar/">Muhammad Khisanul Fakhrudin Akbar</a> | <a href="https://www.linkedin.com/in/cindy-handoko-tantowibowo-55a2751a7/">Cindy Handoko Tantowibowo</a>
 
 </div>
 
+---
+
 
 
 ## 1. Business Understanding
-Ketidaktepatan dalam menyasar target nasabah menjadi penyebab utama rendahnya efektivitas kampanye telemarketing Bank A. Banyak panggilan ditujukan kepada segmen yang tidak sesuai dengan karakteristik produk [deposito berjangka](https://archive.ics.uci.edu/dataset/222/bank+marketing), sehingga menghasilkan tingkat konversi yang sangat bervariasi. Pada periode tertentu, tingkat keberhasilan kampanye mencapai lebih dari 50%, namun di periode lainnya bisa turun drastis hingga di bawah 10%. Variasi ini mencerminkan bahwa strategi targeting yang digunakan belum optimal dan berdampak langsung pada tingginya biaya operasional pemasaran.
+Ketidaktepatan dalam menyasar target nasabah menjadi penyebab utama rendahnya efektivitas kampanye telemarketing Bank A. Banyak panggilan ditujukan kepada segmen yang tidak sesuai dengan karakteristik produk [deposito berjangka](https://www.investopedia.com/terms/t/termdeposit.asp), sehingga menghasilkan tingkat konversi yang sangat bervariasi. Pada periode tertentu, tingkat keberhasilan kampanye mencapai lebih dari 50%, namun di periode lainnya bisa turun drastis hingga di bawah 10%. Variasi ini mencerminkan bahwa strategi targeting yang digunakan belum optimal dan berdampak langsung pada tingginya biaya operasional pemasaran.
 
 Menanggapi permasalahan tersebut, tim analisis data Bank A mengembangkan model prediktif berbasis machine learning. Model ini dibangun menggunakan data historis kampanye, mencakup atribut demografis, status keuangan, serta riwayat interaksi nasabah. Tujuannya adalah mengidentifikasi calon nasabah dengan potensi konversi lebih tinggi. Dengan pendekatan ini, tim marketing pada Bank A dapat menjalankan telemarketing secara lebih efisien, mengurangi pemborosan sumber daya, dan berpotensi meningkatkan rasio keberhasilan secara konsisten.
 
@@ -97,7 +100,7 @@ Semakin tinggi precision, semakin tepat sasaran strategi marketing, karena hanya
 
 ## 7. Data Sources
 
-Dataset [Bank Marketing Campaigns](https://www.kaggle.com/datasets/volodymyrgavrysh/bank-marketing-campaigns-dataset/data) berisi data kampanye telemarketing selama 10 bulan oleh sebuah bank di Portugal untuk mempromosikan produk deposito berjangka. Dataset ini mencakup 21 kolom dan merekam informasi nasabah, riwayat interaksi, serta indikator ekonomi makro.
+Dataset [Bank Marketing Campaigns](https://www.kaggle.com/datasets/volodymyrgavrysh/bank-marketing-campaigns-dataset/data) berisi data kampanye telemarketing selama 10 bulan oleh sebuah [bank di Portugal](https://archive.ics.uci.edu/dataset/222/bank+marketing) untuk mempromosikan produk deposito berjangka. Dataset ini mencakup 21 kolom dan merekam informasi nasabah, riwayat interaksi, serta indikator ekonomi makro.
 
 Kolom-kolom terbagi dalam 5 kelompok:
 
@@ -170,12 +173,24 @@ pip install -r requirements.txt
     * Pastikan library yang dibutuhkan sudah terinstall di environment
     * Buka file `Bank_marketing.ipynb` pada folder notebook
 
+* Run Streamlit Local:  
+    * Pastikan library yang dibutuhkan sudah terinstall di environment
+    * Ubah direktori terminal anda ke folder `AlphaGroup_JC_DS_FT_SBY_05_FinalProject/streamlit`
+    * Aktifkan environment python anda lalu jalankan pada terminal dengan :
+        ```
+        streamlit run main.py
+        ```
+* Online Link:
+    * [Dashboard Tableau Bank Marketing Campaign](https://public.tableau.com/app/profile/khisanul.fakhrudin/viz/BankMarketingCampaignDashboard_17525804810670/Overview)
+    * [Streamlit Aplikasi Bank Marketing Campaign Customer Predictor](https://finpro-bank-marketing.streamlit.app/)
+
 ## 12. Contact
 
-* Nama: Muhammad Khisanul Fakhrudin Akbar
-* Email : shinaruikhisan@gmail.com
-* Linkedin : https://www.linkedin.com/in/muhammad-khisanul-fakhrudin-akbar/
+Muhammad Khisanul Fakhrudin Akbar  
+- Email: [shinaruikhisan@gmail.com](mailto:shinaruikhisan@gmail.com)  
+- LinkedIn: [linkedin.com/in/muhammad-khisanul-fakhrudin-akbar](https://www.linkedin.com/in/muhammad-khisanul-fakhrudin-akbar/)
 
-* Nama: Cindy Handoko Tantowibowo
-* Email : cindyhtantowibowo@gmail.com
-* Linkedin : https://www.linkedin.com/in/cindy-handoko-tantowibowo-55a2751a7/
+
+Cindy Handoko Tantowibowo  
+- Email: [cindyhtantowibowo@gmail.com](mailto:cindyhtantowibowo@gmail.com)  
+- LinkedIn: [linkedin.com/in/cindy-handoko-tantowibowo-55a2751a7/](https://www.linkedin.com/in/cindy-handoko-tantowibowo-55a2751a7/)
